@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.fun{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.fun img{
+    width: 80vh;
+    padding-right: 40px;
+}
+.fun .p1{
+    width: 70vh;
+    font-size: 6vh;
+    margin-bottom: 20px;
+    
+}
+.fun .con{
+    padding-left: 40px;
+    position: relative;
+    top: 50px;
+
+    
+}
+.fun .p2{
+    width: 70vh;
+    font-size: 2vh;
+    color: gray;
+    margin-bottom: 20px;
+}
+.fun button{
+    width: 30vh;
+    height: 6vh;
+    color: white;
+    background-color: rgb(241, 8, 202);
+    border: none;
+    border-radius: 3vh;
+    margin-top: 3vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav img{
+    width: 29vh;
+    padding-left: 40px;
+}
+nav button{
+    width: 20vh;
+    height: 5vh;
+    background-color: white;
+    border: none;
+    border-radius: 3vh;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container{
+    background-image: url(bg-hero-desktop.svg);
+    background-color: rgb(201, 237, 247);
+    padding-bottom: 20px;
+}
+.grow img{
+    width: 39vh;
+    margin-right: 8vh;
+    position: relative;
+   
+
+}
+.grow{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10vh;   
+    justify-content: space-between;
+    height: 40vh;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    width: 170vh;
+}
+.grow p{
+    position: relative;
+    top: 15vh;
+    left: 8vh;
+}
+.grow .p1{
+    margin-bottom: 10px;
+    font-size: 6vh;
+}
+.grow .p2{
+    color: gray;
+    font-size: 2vh;
+    width: 90vh;
+}
+main{
+    position: relative;
+    left: 50px;
+    margin-bottom: 30vh;
+    
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.grow .p3{
+    color: gray;
+    font-size: 2vh;
+    width: 90vh;
+    padding-right: 80px;
+}
+.grow #i2{
+    position: relative;
+    left: 110vh;
+}
+.ready button{
+    width: 30vh;
+    height: 6vh;
+    color: white;
+    background-color: rgb(241, 8, 202);
+    border: none;
+    border-radius: 3vh;
+    margin-top: 3vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ready{
+    text-align: center;
+    height: 18vh;
+    width: 70vh;
+    padding-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left: 63vh;
+    bottom: 70px;
+    border-radius: 20px;
+    z-index: 1;
+    background-color: white;
+    top: 60px;  
+}
+.nav{
+    background-color: rgb(168, 170, 178);
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    position: absolute;
+    width: 100%;
+    
+}
+.nav .nave{
+    width: 50vh;
+    padding-left: 50px;
+}
+.nave img{
+    width: 30vh;
+}
+.lo img{
+    width: 3vh;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.lo,.phone,.mail{
+    display: flex;
+    margin-top: 20px;
+}
+.phone img{
+    width: 3vh;
+    margin-right: 20px;
+    
+}
+.mail img{
+    width: 3vh;
+    margin-right: 20px;
+    
+}
+
+
